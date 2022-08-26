@@ -11,6 +11,7 @@ from os.path import exists
 env.user = "ubuntu"
 env.hosts = ['34.201.147.121', '34.207.82.133']
 
+
 def do_pack():
     """casddddddddd"""
     try:
@@ -21,6 +22,7 @@ def do_pack():
         return("versions/web_static_{}.tgz".format(date))
     except exception:
         return None
+
 
 def do_deploy(archive_path):
     """dddddddddddda"""
@@ -43,6 +45,7 @@ def do_deploy(archive_path):
 
     except Exception:
         return False
+
 
 def deploy():
     """asad"""
