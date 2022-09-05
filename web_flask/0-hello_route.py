@@ -12,4 +12,4 @@ if __name__ == "__main__":
 		"""root folder route"""
 		return "Hello HBNB!"
 
-	app.run(host='0.0.0.0:5000')
+	app.run(host='0.0.0.0')
