@@ -40,7 +40,7 @@ if __name__ == "__main__":
         return render_template('5-number.html', n=n)
 
     @app.route('number_odd_or_even/<int:n>', strict_slashes=False)
-    def or(n):
+    def or_or(n):
         """n is even or odd"""
         if n % 2 == 0:
             orr = "even"
